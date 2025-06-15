@@ -10,7 +10,12 @@ function convertSection() {
   
   if (ipcToBnsMap[oldSection]) {
     const mapping = ipcToBnsMap[oldSection];
-    resultDiv.innerHTML = `New BNS Section: ${mapping.bns}<br>Illustration: ${mapping.illustration}`;
+    resultDiv.innerHTML = `
+      <b>Old IPC Section:</b> ${oldSection}<br>
+      <b>New BNS Section:</b> ${mapping.bns}<br>
+      <b>Section Title:</b> ${mapping.title}<br>
+      <b>Illustration:</b> ${mapping.illustration}
+    `;
   } else {
     resultDiv.innerHTML = "No mapping found for this section.";
   }
