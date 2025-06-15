@@ -1,6 +1,27 @@
 {
-  "302": { "bns": "103", "illustration": "Punishment for Murder" },
-  "420": { "bns": "316", "illustration": "Cheating and dishonestly inducing delivery of property" },
-  "376": { "bns": "63", "illustration": "Punishment for Rape" },
-  "120B": { "bns": "61", "illustration": "Criminal Conspiracy" }
+  "302": {
+    "bns": "103",
+    "title": "Murder",
+    "illustration": "Punishment for causing death of a person intentionally."
+  },
+  "420": {
+    "bns": "316",
+    "title": "Cheating and dishonestly inducing delivery of property",
+    "illustration": "Punishment for cheating with intention to dishonestly induce someone to deliver property."
+  },
+  "376": {
+    "bns": "63",
+    "title": "Punishment for Rape",
+    "illustration": "Punishment for sexual assault without consent."
+  },
+  "120B": {
+    "bns": "61",
+    "title": "Criminal Conspiracy",
+    "illustration": "Agreement between two or more persons to commit illegal act."
+  },
+  "498A": {
+    "bns": "85",
+    "title": "Cruelty by Husband or Relatives",
+    "illustration": "Husband or relatives of husband subjecting woman to cruelty."
+  }
 }
